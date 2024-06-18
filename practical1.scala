@@ -24,5 +24,7 @@ def totalBookCost(copies: Int): Double = {
 }
 
 def totalrunTime(): Int = {
-    (2 * 8) + (3 * 7) + (2 * 8)
+    val easyPace = (2 * 8)
+    val tempoPace = (3 * 7)
+    (easyPace * 2) + tempoPace
 }
